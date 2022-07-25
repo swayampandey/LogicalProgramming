@@ -40,7 +40,7 @@ import java.util.Scanner;
 		sc.nextInt();
 		sw.stop();
 		
-		long l= sw.getElapsedTime();
+		double l= sw.getElapsedTime();
 		System.out.println();
 		System.out.println("Total Time Elapsed(in millisec) is:"+l);
 		System.out.println();
